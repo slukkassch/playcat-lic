@@ -1,0 +1,52 @@
+body{
+    font-family: 'Comic Neue';
+    background: #696969;
+}
+
+.cabecalho{
+    border-bottom: solid 2px #ff0000;
+    padding: 2%;
+    font-size: 35px;
+    color: #ff9900;
+    text-align: center;
+}
+
+.secao{
+    margin-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #ff0000;
+    color: #ff9900;
+    text-align: center;
+}
+
+.video{
+    border-radius: 5%;
+}
+
+.link_menu{
+    color: #925a08;
+    text-decoration: none;
+    border: 2px solid #642605;
+    padding: 5px;
+    border-radius: 2%;
+    background-color: #edab78;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.link_menu:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.video:hover{    
+    opacity: 50.0;
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 2%;
+}
